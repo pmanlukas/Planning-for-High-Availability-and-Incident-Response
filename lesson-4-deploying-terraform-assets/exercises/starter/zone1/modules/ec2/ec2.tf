@@ -13,6 +13,8 @@ resource "aws_instance" "ubuntu" {
 resource "aws_security_group" "ec2_sg" {
   name        = "ec2_sg"
   description = "Allow TLS inbound traffic"
+
+  #we reference the variable defined in the main ec2.tf file calling this module
   vpc_id      = var.vpc_id
 
   ingress {
@@ -34,6 +36,7 @@ resource "aws_security_group" "ec2_sg" {
   egress {
     from_port        = 0
     to_port          = 0
+    #-1 means any protocol
     protocol         = "-1"
     cidr_blocks      = ["0.0.0.0/0"]
   }
