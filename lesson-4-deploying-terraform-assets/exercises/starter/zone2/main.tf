@@ -2,7 +2,7 @@ locals {
    account_id = data.aws_caller_identity.current.account_id
 
    name   = "udacity"
-   region = "us-east-2"
+   region = "us-west-1"
    tags = {
      Name      = local.name
      Terraform = "true"
@@ -15,7 +15,7 @@ locals {
 
    account_owner = local.name
    name          = "${local.name}-project"
-   azs           = ["us-east-2a", "us-east-2b", "us-east-2c"]
+   azs           = ["us-west-1a", "us-west-1b", "us-west-1c"]
    private_subnet_tags = {
      "kubernetes.io/role/internal-elb" = 1
    }
