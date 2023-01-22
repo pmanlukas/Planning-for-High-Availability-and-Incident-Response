@@ -11,3 +11,4 @@
 .DS_Store
 lesson-2-sli-slo/exercises/starter/.terraform.lock.hcl
 lesson-4-deploying-terraform-assets/exercises/starter/zone2/.terraform.lock.hcl
+lesson-5-rds-deploy/exercises/starter/.terraform.lock.hcl
