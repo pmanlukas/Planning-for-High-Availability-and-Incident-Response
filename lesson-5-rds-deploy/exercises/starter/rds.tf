@@ -4,6 +4,7 @@ module "project_rds_p" {
   vpc_id = module.vpc.vpc_id
 }
 
+#a module for the secondary cluster using a different provider for the region us-west-1
 module "project_rds_s" {
   source                  = "./modules/rds-s"
   primary_db_cluster_arn  = module.project_rds_p.db_cluster_arn    
