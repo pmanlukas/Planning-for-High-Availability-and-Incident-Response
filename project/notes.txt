@@ -7,3 +7,11 @@
     "ImageId": "ami-0f25c8156953eb7fe"
 }
 [cloudshell-user@ip-10-8-94-107 ~]$ 
+
+#us-west-1
+
+ami-0f25c8156953eb7fe
+
+#us-east-2
+
+ami-0d4a1dc7173c66e77
