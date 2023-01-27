@@ -1,0 +1,9 @@
+[cloudshell-user@ip-10-8-94-107 ~]$ aws ec2 copy-image --source-image-id ami-06db64b34f9004a9c --source-region us-east-1 --region us-east-2 --name "udacity-lupollma"                                                                                                                                                                                                                                                                                                                       
+{
+    "ImageId": "ami-0d4a1dc7173c66e77"
+}
+[cloudshell-user@ip-10-8-94-107 ~]$ aws ec2 copy-image --source-image-id ami-06db64b34f9004a9c --source-region us-east-1 --region us-west-1 --name "udacity-lupollma"
+{
+    "ImageId": "ami-0f25c8156953eb7fe"
+}
+[cloudshell-user@ip-10-8-94-107 ~]$ 
