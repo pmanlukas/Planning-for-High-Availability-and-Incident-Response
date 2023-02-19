@@ -12,3 +12,6 @@
 lesson-2-sli-slo/exercises/starter/.terraform.lock.hcl
 lesson-4-deploying-terraform-assets/exercises/starter/zone2/.terraform.lock.hcl
 lesson-5-rds-deploy/exercises/starter/.terraform.lock.hcl
+project/starter-code/zone1/AWSCLIV2.pkg
+.gitignore
+project/starter-code/zone1/kubectl.sha256
